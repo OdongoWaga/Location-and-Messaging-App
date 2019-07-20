@@ -1,6 +1,7 @@
 import { StyleSheet, View } from 'react-native';
 import React from 'react';
-import Status from './components/Status'
+import Status from './components/Status';
+
 
 export default class App extends React.Component {
   renderMessageList() {
