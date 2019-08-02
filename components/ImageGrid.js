@@ -47,10 +47,7 @@ import {
   
       this.loading = true;
   
-      const results = await CameraRoll.getPhotos({
-        first: 20,
-        after,
-      });
+      const results = await CameraRoll.getPhotos({ first: 20, assetType: "Photos", groupTypes: "All" });
   
       const {
         edges,
